@@ -1,0 +1,261 @@
+﻿/*En el siguiente corchete reseteamos el margen y padding del navegador*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Estilo del encabezado*/
+header{
+    height: 170px;
+    width: auto;
+    padding: 20px;
+    background-color: #2C6477;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilo del logo*/
+.logo{
+    height: 180px;
+    width: auto;
+    float: left;
+}
+
+/*Estilo del título*/
+#pagtitle{
+    width: auto;
+    color: white;
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+    font-size: 58px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+/*Estilo del menú de opciones, lo diseñamos como una lista.*/
+#options{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0px;
+    background-color: rgb(253, 179, 68);
+    display: inline-block;
+    text-align: center;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center; /*Alineacion central de las opciones*/
+    padding: 14px;
+    text-decoration: none; /*Quitamos el subrayado de los enlaces*/
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Pseudoclase para resaltar las opciones cuando se pasa el ratón por encima*/
+li a:hover{
+    background-color: rgb(36, 209, 228);
+}
+
+/*Contenedor central que incluye a las cajas derecha e izquierda*/
+#central{
+    display: flex;
+    width: 100%;
+}
+
+#box_left{
+    float: left;
+    width: 33.3%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(36, 209, 228);
+    overflow: hidden;
+}
+
+/*Subdivisión de la caja de la derecha: información personal*/
+#user{
+    width: 86%;
+    height: auto;
+    padding: 25px;
+    text-decoration: none;
+}
+
+/*Formato imagen de perfil*/
+.imgperfil {
+    width:105px;
+    height:105px;
+    border-radius:60px;
+    margin:auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+    color: rgb(0, 0, 182);
+}
+
+h3{
+    text-align: justify;
+    font-size: 1em;
+    color:  rgb(54, 54, 54);
+}
+
+#photo{
+    height: auto;
+    width: auto;
+    float: left;
+    margin: 10px;
+}
+
+/*Subdivisión de la caja de la derecha: últimas opiniones*/
+#last_opinions{
+    width: 86%;
+    height: auto;
+    padding: 25px;
+    word-wrap: break-word;
+    border-top: 1.5px dotted rgba(68, 68, 68, 0.212);
+}
+
+/*Subdivisión de la caja de la derecha: preferencias*/
+#preferences{
+    width: 86%;
+    height: auto;
+    padding: 25px;
+    border-top: 1.5px dotted  rgba(68, 68, 68, 0.212);
+}
+
+/*Botones que simulan las preferencias elegidas por el usuario*/
+.button{
+    background-color:  rgb(253, 179, 68);
+    margin: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/*Caja contenedora de la derecha*/
+#box_right{
+    float: right;
+    width: 66.7%;
+    height: auto;
+    background-color: rgb(238, 249, 255);
+}
+
+/*Pie de página*/
+footer{
+    clear: both;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+}
+
+.links{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+/*CAMBIOS PARA EL EJERCICIO 2 - Todos estos cambios se hacen en el box2*/
+.to_refill{/*Recuadro donde metemos los formularios*/
+    margin-left:10%;
+    margin-top: 115px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title2{
+    color: black;
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+#myactivity{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+#activity{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgcirc {/*Formato Imagenes redondeadas*/
+    width:120px;
+    height:120px;
+    border-radius:60px;
+    margin:auto;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+
+.act{
+    font-size: 20px;
+    font-family: 'Kelly Slab', cursive;
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+
+.op_title {
+    margin-top:1px;
+    margin-left: 25%;
+    font-size: 25px;
+    font-family: 'Kelly Slab', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.photo{ /*Imagenes hoteles y restaurantes*/
+    width:120px;
+    height:120px;
+    text-align: center;
+    float: left;
+}
+
+.description{
+    font-size: 18px;
+    font-family: 'Kelly Slab', cursive;
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+
+.opinion{
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border: 3px solid #555;
+    text-align: justify;
+}
